@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="center">
+        <h1>Password Validator</h1>
+        <form onsubmit="return validate()">
+            <div class="txt-field">
+                <!-- <label for="password">password</label> -->
+                <input type="password" id="pswd1" placeholder="Enter your password">
+                <span id="message1"></span>
+            </div>
+            <div class="txt-field">
+                <!-- <label for="cnfrm-password">confirm password</label> -->
+                <input type="password" id="pswd2" placeholder="confirm password here">
+                <span id="message2"></span>
+            </div>
+            
+            <input type="submit" value="Submit" id="submit">
+        </form>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
